@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="re-use">
+    <title>Reusable Content</title>
+    <body>
+        <!-- prerequisites for change acitivity -->
+        <p id="pre-req-change-management"><b>Prerequisites for this change type include:</b><ul>
+                <li>IT Director approval</li>
+                <li>implementation through the <wintitle>Change Management Process</wintitle></li>
+            </ul></p>
+    </body>
+</topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cm-change-standard">
+    <title>Standard Changes</title><shortdesc>Operations Requests</shortdesc>
+    <body>
+        <p>A type of change that follows an established procedure or work instruction and is
+            relatively common. Their risk profile is low. Standard changes <b>will not</b>:</p>
+        <ul>
+            <li>cause a service outage </li>
+            <li>run a significant risk of causing an outage</li>
+            <li>create a significant change in the end user experience</li>
+        </ul>
+    </body>
+</topic>
+
+

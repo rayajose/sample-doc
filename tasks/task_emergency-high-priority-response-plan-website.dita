@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_emergency-high-priority-response-plan-website">
+    <title>Website Issues</title>
+    <shortdesc>To work on a website issue, follow these steps:</shortdesc>
+    <taskbody>
+        <steps>
+
+            <step>
+                <cmd>Upon discovery of the issue, notify the IT Director and Program Manager.</cmd>
+            </step>
+            <step>
+                <cmd>Open a ticket. Set the Priority field to 2 (High) or 1 (Emergency) and assign
+                    to the Development Team.</cmd>
+            </step>
+            <step>
+                <cmd>The Development Team will coordinate resolution and deploy a hot fix to
+                    Staging. The fix will be applied to source, as well as release, if one is in
+                    progress</cmd>
+            </step>
+
+            <step>
+                <cmd>QA validates the fix in Staging.</cmd>
+            </step>
+            <step>
+                <cmd>Development team and IT Director coordinate deployment of hot fix to
+                    Production.</cmd>
+            </step>
+            <step>
+                <cmd>Update the ticket at each step of above progress and then assigned back to QA
+                    for validation with the next release </cmd>
+            </step>
+            <step>
+                <cmd>IT Director or Program Manager notifiy Client business and/or complete an
+                    Incident Report as required.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

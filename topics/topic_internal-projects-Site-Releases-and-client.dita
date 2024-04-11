@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_internal-projects-Site-Releases-and-client">
+    <title>Site Releases</title>
+
+    <body>
+        <p conref="../reusable-content.dita#re-use/pre-req-change-management"/>
+                <section>
+            <title>Requirements and Design</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <title>Requirements and Design Tasks</title>
+                <tgroup cols="2">
+                    <colspec colname="c2" colnum="1" colwidth="20.57*"/>
+                    <colspec colname="newCol3" colnum="2" colwidth="5.17*"/>
+                    <thead>
+                        <row>
+                            <entry>Task</entry>
+                            <entry>Owner</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Identify enhancement/risk items and review with Tech Lead and
+                                executives regularly for prioritization and placement on the Company
+                                Road Map for an upcoming release. (internal backlog) </entry>
+                            <entry> Program Manager </entry>
+                        </row>
+                        <row>
+                            <entry>Drive the overall timeline and project method in coordination
+                                with Client and/or (Dev and/or QA Leads).</entry>
+                            <entry> Program Manager </entry>
+                        </row>
+                        <row>
+                            <entry>Define requirements and develop design.</entry>
+                            <entry>
+                                <p>Program Manager</p>
+                                <p>Business Owner</p>
+                                <p>Dev Lead</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Perform threat modeling on new functionality or updates to
+                                existing functionality, as described in the Information Security
+                                Management Plan > Threat Model. Any mitigations identified are added
+                                as requirements for the implementation of the change.</entry>
+                            <entry> Dev Lead </entry>
+                        </row>
+                        <row>
+                            <entry>Document project requirements either in an ETC tickets, Azure
+                                Devops Backlog item, or Company Wiki page(s). Related documents are
+                                stored on the company’s shared location.</entry>
+                            <entry> Program Manager </entry>
+                        </row>
+                        <row>
+                            <entry><note id="note_f34_bgn_z1c">The work is broken into Azure Devops
+                                    Backlog items and tasks and assigned to team members.
+                                </note>Meet with the development team to discuss design and overall
+                                architecture. Define work breakdown and assignments.</entry>
+                            <entry>Technical Lead</entry>
+                        </row>
+                        <row>
+                            <entry>Use the Development (CompanyLLP) and Test (CompanyLLPPROD)
+                                environments to go through a repeated cycle of:<ol
+                                    id="ol_jgf_jgn_z1c">
+                                    <li>Creating a Pull Request of changes to be deployed.</li>
+                                    <li>Code Review by Dev manager and other team members who did
+                                        not author the changes.</li>
+                                    <li>Deploying to the Test Environment.</li>
+                                    <li>Regressing the build.</li>
+                                </ol></entry>
+                            <entry>Dev Lead</entry>
+                        </row>
+                        <row>
+                            <entry>Sign off on the build and assigns it to the release
+                                manager.</entry>
+                            <entry>Test Lead</entry>
+                        </row>
+                        <row>
+                            <entry>Notify Test Lead to regress the release, usually in the Test Root
+                                environment. Application Security testing and Performance testing,
+                                as applicable, are performed at this time.</entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                        <row>
+                            <entry>If required, notify the client to perform user acceptance
+                                testing.</entry>
+                            <entry>Program Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Notify the project manager of build signoff, and if required,
+                                project manager gets permission from the client to launch the
+                                release.</entry>
+                            <entry>Test Lead</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+
+        <section>
+            <title>Release</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <title>Release Tasks</title>
+                <tgroup cols="2">
+                    <colspec colname="c2" colnum="1" colwidth="20.57*"/>
+                    <colspec colname="newCol3" colnum="2" colwidth="5.17*"/>
+                    <thead>
+                        <row>
+                            <entry>Task</entry>
+                            <entry>Owner</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Create a release ticket in ETC, selecting the “Release Rollout”
+                                Project type, and assigns it to the release manager.</entry>
+                            <entry>Program Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Copy the selected build from Test Root to the Code Staging
+                                Environment, and assign the release ticket to the test lead for
+                                verification.</entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Sign off on the build and assign the ticket to the release
+                                manager.</entry>
+                            <entry>Test Lead</entry>
+                        </row>
+                        <row>
+                            <entry>Copy the selected build from the Code Staging Environment to the
+                                Production Environment in the following ways: <ul>
+                                    <li><u>Automatically (EMC Build Tool): </u>System scripts are
+                                        run automatically to complete code promotion.</li>
+                                    <li><u>Automatically (Azure Devops):</u> System scripts are run
+                                        automatically to complete code promotion.</li>
+                                    <li><u>Manually:</u> Members of the Release Management Group
+                                        (RMG) manually complete code promotion by interacting with
+                                        the remaining affected folders and database entries.</li>
+                                </ul></entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Deploy the build to production and assign the ticket to the test
+                                lead.</entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Back up the current version. All previous versions are stored in
+                                case they need to be restored. </entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                        <row>
+                            <entry>Copy the new code to the web servers in the load balancing
+                                pool.</entry>
+                            <entry>Release Manager</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+
+        <section>
+            <title>Regression</title>
+            <table frame="all" rowsep="1" colsep="1">
+                <title>Regression Tasks</title>
+                <tgroup cols="2">
+                    <colspec colname="c2" colnum="1" colwidth="20.57*"/>
+                    <colspec colname="newCol3" colnum="2" colwidth="5.17*"/>
+                    <thead>
+                        <row>
+                            <entry>Task</entry>
+                            <entry>Owner</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Regress the build in production and assign the ticket to the
+                                Project Manager.</entry>
+                            <entry>Test Lead</entry>
+                        </row>
+                        <row>
+                            <entry>Record any bugs or problems with the release and maintain the
+                                ticket for one week.<note id="note_eb3_ykn_z1c">If there is a
+                                    problem that causes production to break (build, technical,
+                                    environmental, etc.) , an emergency exception may be indicated.
+                                    In this case, the release manager may roll back the build to the
+                                    previous version while the current version is repaired. Testing
+                                    may also take place in the Production Environment during or
+                                    shortly after the fix has been put into place. After the
+                                    emergency has been handled successfully, those involved in the
+                                    incident complete an Incident Report Form for tracking purposes
+                                    and to help diagnose any future incidents.</note></entry>
+                            <entry>Program Manager</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+
+    </body>
+
+</topic>

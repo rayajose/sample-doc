@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_emergency-high-priority-response-plan">
+    <title>Emergency Changes</title><shortdesc>Priority Classifications</shortdesc>
+    <body>
+        <p>Higher severity issues require quick turnaround and must be completed using an expedited
+            process. Tickets with the following Priority will go through the expedited process.</p>
+        <table frame="all" rowsep="1" colsep="1"><title>Emergency Change Classifications</title>
+            <tgroup cols="3">
+              <thead>
+                    <row>
+                        <entry>Type</entry>
+                        <entry>Update Frequency</entry>
+                        <entry>Escalation</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Priority 1 - Emergency </entry>
+                        <entry>Every business day</entry>
+                        <entry>Report to IT Director</entry>
+                    </row>
+                    <row>
+                        <entry>Priority 2 - High  </entry>
+                        <entry>Once a week</entry>
+                        <entry>Report to IT Director</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>      
+        <section>
+            <title>Priority 1 - Emergency</title>
+            <p>A Priority 1 issue will cause at least one of the following:</p>
+            <ul>
+                <li>unplanned website outage</li>
+                <li>order checkout not available</li>
+                <li>corrupt order-related data</li>
+            </ul>
+        </section>
+
+        <section>
+            <title>Priority 2 - High</title>
+            <p>A Priority 2 issue is typically one of the following:</p>
+            <ul>
+                <li>urgent copy changes from Client Compliance/Legal</li>
+                <li>urgent issues that do not affect website UI</li>
+                <li>other issues deemed as such by Client Business, IT Director, and/or Program
+                    Manager</li>
+            </ul>
+        </section>
+
+    </body>
+</topic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cm-change-normal">
+    <title>Normal Changes</title><shortdesc>Merchant Onboarding | Internal Systems | Site Releases</shortdesc>
+    <body>
+        <p>A Normal Change is one which will affect services in the production environment.  Normal
+            changes <b>will</b>:</p>
+        <ul>
+            <li>cause a service outage </li>
+            <li>run a significant risk of causing an outage</li>
+            <li>creat a significant change in the end user experience</li>
+        </ul>
+    </body>
+</topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>NORMAL</title>
+    
+    
+    <topicref href="topics/topic_cm-change-normal.dita" chunk="to-content">
+        <topicref href="tasks/task_merchant-onboarding-process.dita"/>
+        <topicref href="tasks/task_network-system-hardware-changes.dita"/>
+        <topicref href="topics/topic_internal-projects-Site-Releases-and-client.dita"/>
+        <!--<topicref href="topics/topic_emergency-high-priority-response-plan-pci.dita"/>-->
+    </topicref>
+    
+    
+    
+</map>

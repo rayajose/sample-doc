@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="requestor-change-management">
+    <glossterm>Requestor</glossterm>
+    <glossdef>Business or IT representative who initiates a request for change. This person is
+        responsible for filling out the Request for Change (RFC) form ensuring that all
+        required information is included, submitting it according to this procedure, and
+        notifying change manager. 
+    </glossdef>
+</glossentry>

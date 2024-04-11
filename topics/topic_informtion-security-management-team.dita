@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_informtion-security-management-team">
+    <title>Information Security Management Team</title>
+    <body>
+        <note>Roles associated with the Change Management process are defined in the context of the
+            management function and are not intended to correspond with organizational job titles. </note>
+        <table frame="all" rowsep="1" colsep="1" id="table_n2x_tzl_z1c">
+            <title>ISM Team Members </title>
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="3.35*"/>
+                <colspec colname="c3" colnum="3" colwidth="2.72*"/>
+                <colspec colname="c4" colnum="4" colwidth="4.08*"/>
+                <thead>
+                    <row>
+                        <entry>Member</entry>
+                        <entry>Title</entry>
+                        <entry>ISM Team Role</entry>
+                        <entry>Ownership</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry/>
+                        <entry>Information Technology Director</entry>
+                        <entry>Security Program Custodian</entry>
+                        <entry>Process Owner (All)</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Development Team Lead</entry>
+                        <entry>Subject Matter Expert</entry>
+                        <entry>Process Owner (Development)</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Network Administrator</entry>
+                        <entry>Technical Administrator</entry>
+                        <entry>Network Architecure</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Network Administrator</entry>
+                        <entry>Technical Administrator</entry>
+                        <entry>Network, domain and computer administration</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Program Manager</entry>
+                        <entry>Subject Matter Expert</entry>
+                        <entry>Process Owner (Change Management)</entry>
+                    </row>
+                    <row>
+                        <entry>Ray Jose</entry>
+                        <entry>Merchant Manager / Technical Writer</entry>
+                        <entry>Documentation Specialist</entry>
+                        <entry>Security Policies and Procedures</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Operations Lead</entry>
+                        <entry>Subject Matter Expert</entry>
+                        <entry>Operations Process</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry>Quality Assurance Lead</entry>
+                        <entry>Subject Matter Expert</entry>
+                        <entry>Test Process</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

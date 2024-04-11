@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_change-management-participants">
+    <title>Participants</title>
+    <body>
+        <p>A member from each area is involved in the weekly Roadmap meetings. Anyone can make a
+            change request. The entire team provides input in the approval process. However,
+            ultimate approval comes from the customer and/or the IT Director. Changes are generally
+            implemented by Project Management and the Development and QA teams.</p>
+        <note type="important">
+            The Approver and the Implementer of a given change request cannot be the same person.
+        </note>
+        <table frame="all" rowsep="1" colsep="1"><title>Participant Responsibilities</title>
+            <tgroup cols="4">
+                
+                <thead>
+                    <row>
+                        <entry>Participant</entry>
+                        <entry>Requestor</entry>
+                        <entry>Approver</entry>
+                        <entry>Implementer</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Customer</entry>
+                        <entry>X</entry>
+                        <entry>X</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Employee</entry>
+                        <entry>X</entry>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>IT Director</entry>
+                        <entry/>
+                        <entry>X</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>Developer</entry>
+                        <entry/>
+                        <entry/>
+                        <entry>X</entry>
+                    </row>
+                    <row>
+                        <entry>Project Manager</entry>
+                        <entry/>
+                        <entry/>
+                        <entry>X</entry>
+                    </row>
+                    <row>
+                        <entry>QA</entry>
+                        <entry/>
+                        <entry/>
+                        <entry>X</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

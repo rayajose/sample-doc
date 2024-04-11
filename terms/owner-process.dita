@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+<glossentry id="owner-process">
+    <glossterm>Process Owner</glossterm>
+    <glossdef>Senior manager who provides management control and guidance for the
+        process in the IT department. Accountable for process design, operation, and
+        improvement. Approves process rollout and changes to the process.
+        Coordinates with Change Process Owners in other areas to ensure
+        common practices where appropriate. 
+    </glossdef>
+</glossentry>

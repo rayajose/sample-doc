@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_emergency-high-priority-response-plan-pci">
+    <title>Payment Card Industry  (PCI) Impact</title>
+    <body>
+        <p>Significant changes to the PCI environment or systems within, will be assessed per PCI
+            requirements.  When there is potiential PCI impact, changes need to go through a formal
+            PCI review and sign off . The ticket must reflect that changes will not bring system(s)
+            out of PCI compliance. Standard changes for a PCI environment may be setup to ensure
+            consistency. Documentation will be updated to reflect all changes.</p>
+    </body>
+</topic>

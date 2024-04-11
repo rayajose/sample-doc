@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cm-change-defined">
+    <title>Change Defined</title>
+    <body>
+        <p>A change is the addition, removal, or modification of anything that might have an
+        impact on the delivery of an IT service. The change management process is the
+        process used to control those changes. These include hardware (servers, routers,
+        switches, etc.) and software (purchased or developed in house), as well as less
+        obvious items such as documentation, policies, processes, and management tools.</p>
+       
+        <p>Three types of changes are commonly found in higher education: standard,
+        normal, and emergency.</p>
+    </body>
+</topic>

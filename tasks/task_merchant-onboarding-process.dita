@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_merchant-onboarding-process">
+    <title>Merchant Onboarding</title>
+    <shortdesc>New partners must be onboarded into the system.  To onboard a new merchant, follow
+        these steps:</shortdesc>
+    <taskbody>        
+        <steps>
+
+            <step>
+                <cmd>Prospective merchant is identified by Company or Client or requests to be part
+                    of program either directly or through affiliate network.</cmd>
+            </step>
+            <step>
+                <cmd>Client, Company Executive or Merchant Manager establishes communication with
+                    merchant/affiliate</cmd>
+            </step>
+            <step>
+                <cmd>Company Merchant Manager opens ticket in ETC in “unassigned” queue to have the
+                    merchant’s feed and/or site reviewed for basic qualifications (e.g., has a
+                    website that accepts Client credit cards, etc.)</cmd>
+            </step>
+            <step>
+                <cmd>After initial feed/site analysis, ticket is assigned back to Company Merchant
+                    Manager, who sends onboarding packet to merchant/affiliate, along with feed
+                    analysis</cmd>
+            </step>
+            <step>
+                <cmd>Merchant/affiliate supplies necessary onboarding information and updated feed,
+                    as necessary</cmd>
+
+            </step>
+            <step>
+                <cmd>Company Merchant Manager distributes a task list with assigned action items and
+                    due dates to complete the onboarding</cmd>
+            </step>
+            <step>
+                <cmd>Task owners respond to the group when their tasks are completed</cmd>
+
+            </step>
+            <step>
+                <cmd>The QA Lead coordinates verification of the entire onboarding in a pre-release
+                    Test environment and notifies the Company Merchant Manager when signed off</cmd>
+            </step>
+            <step>
+                <cmd>The Merchant Manager coordinates the migration of tool settings and various
+                    code pieces to production</cmd>
+
+            </step>
+            <step>
+                <cmd>Once merchant is live on the site, the QA Lead coordinates final verification
+                    and signs off in production</cmd>
+
+            </step>
+            <step>
+                <cmd>Company Merchant Manager notifies the merchant/affiliate, Client business
+                    contacts, and internal Company staff that the onboarding is completed and closes
+                    the ticket</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

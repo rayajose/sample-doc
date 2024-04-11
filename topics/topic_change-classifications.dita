@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_change_classifications">
+    <title>Changes Types</title>
+    <body>
+        <p>There are three different types of service change:</p>
+        <table frame="all" rowsep="1" colsep="1"><title>Change Types Described</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="5.45*"/>
+                <thead>
+                    <row>
+                        <entry>Type</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Normal</entry>
+                        <entry>Any service change that is not a standard change or an emergency
+                            change.</entry>
+                    </row>
+                    <row>
+                        <entry>Standard</entry>
+                        <entry>A pre-authorized change that is low risk, relatively common and
+                            follows a procedure or work instruction.</entry>
+                    </row>
+                    <row>
+                        <entry>Emergency</entry>
+                        <entry>A change that must be implemented as soon as possible, for example to
+                            resolve a major incident or implement a security patch</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>In addition to the change types, changes can be categorized as major, significant or minor, depending on
+            the level of cost and risk involved, and on the scope and relationship to other changes. The detail
+            procedures for each group should address this categorization. </p>
+    </body>
+</topic>
+

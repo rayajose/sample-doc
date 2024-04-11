@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cm-scope">
+    <title>Scope</title>
+    <body>
+        <p>The <wintitle>Change Managment Process</wintitle> covers all changes to IT systems
+            (hardware and software assets) and policy documentation. The following items fall within
+            the scope of this Change Management Processs.</p>
+        <table frame="all" rowsep="1" colsep="1">
+            <title>Items in Scope</title>
+            <tgroup cols="2">
+                <thead>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Software</entry>
+                        <entry>Installation, patching, upgrade or removal of software products
+                            including operating systems, commercial off-the-shelf packages,
+                            internally developed packages, utilities, and desktop base
+                            images</entry>
+                    </row>
+                    <row>
+                        <entry>Hardware</entry>
+                        <entry>Installation, modification, removal or relocation of computing
+                            equipment such as servers, storage, network printers, and network
+                            equipment. Rebooting of production servers.</entry>
+                    </row>
+                    <row>
+                        <entry>System configuration</entry>
+                        <entry>Moves, adds, changes and deletes such as firewall changes, access
+                            methods, shared system file permission changes, secure FTP keys,
+                            etc.</entry>
+                    </row>
+                    <row>
+                        <entry>Databases</entry>
+                        <entry>Changes to databases or files such as additions, reorganizations, and
+                            major maintenance Facilities In Installation, modification, removal or
+                            relocation of equipment in wiring closets, telecommunications rooms,
+                            data centers including power conditioning, cooling, fire suppression,
+                            and environmental monitoring/alarming systems</entry>
+                    </row>
+                    <row>
+                        <entry>Applications</entry>
+                        <entry>Application changes being promoted to production, new application
+                            systems being introduced, and obsolete application systems being
+                            removed</entry>
+                    </row>
+                    <row>
+                        <entry>Production Schedules</entry>
+                        <entry>Requests for creation, deletion, or revision to batch job schedules,
+                            back-up schedules, maintenance windows or other production schedules
+                            managed by IT Services In Services being moved into production, service
+                            changes with significant user impact, and services being retired</entry>
+                    </row>
+                    <row>
+                        <entry>Business Continuity / Disaster Recovery Plans</entry>
+                        <entry>Planning and architecture documents</entry>
+                    </row>
+                    <row>
+                        <entry>Production Documentation</entry>
+                        <entry>Any changes to standards, procedures, and guidelines Non-production
+                            Out Changes to non-production configuration items (CIs) or
+                            resources</entry>
+                    </row>
+                    <row>
+                        <entry>Telephony System</entry>
+                        <entry>Installation, modification, de-installation, or relocation of PBX
+                            equipment and services</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+        <section>
+            <title>Out of Scope</title>
+            <p>There are tasks performed either by the Information Security Management (ISM) Team or
+                by end users, which do not fall under the policies and procedures of Change
+                Management. The following items are not in scope of this Change Management
+                Processs.</p>
+            <table frame="all" rowsep="1" colsep="1">
+                <title>Items Out of Scope</title>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Item</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Applications under construction</entry>
+                            <entry>Applications that are in the process of being implemented are
+                                controlled by the change control process established for the
+                                particular project that is underway. (If out of scope, application
+                                teams have the responsibility to communicate changes to any affected
+                                customers.)</entry>
+                        </row>
+                        <row>
+                            <entry>Services under construction</entry>
+                            <entry>Decision to commit resources and provide a new service to
+                                customers, up to the time a service goes into production.</entry>
+                        </row>
+                        <row>
+                            <entry>Desktop equipment </entry>
+                            <entry>Any modification or relocation of individual desktop.</entry>
+                        </row>
+                        <row>
+                            <entry>Desktop Owner</entry>
+                            <entry>Assigning desktop equipment to a new individual or
+                                system.</entry>
+                        </row>
+                        <row>
+                            <entry>Telephony Units</entry>
+                            <entry>Any modification or relocation of individual phone lines and desk
+                                phones (maintained in Pinnacle)</entry>
+                        </row>
+                        <row>
+                            <entry>Daily administrative tasks</entry>
+                            <entry>Examples include:<ul id="ul_wd4_yht_z1c">
+                                    <li>End User password resets</li>
+                                    <li>User adds/deletes/modifications</li>
+                                    <li>Adding, deleting or revising end-user security groups and
+                                        roles</li>
+                                </ul></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

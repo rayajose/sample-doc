@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_code-release-follow-up">
+    <title>Code Release Follow-up</title> <shortdesc>After code review and release, follow these steps:</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Assuming any subsequent issues are addressed, Project Manager reassigns the ticket to the Release Manager.</cmd>
+            </step>
+            <step>
+                <cmd>Release manager deploys the build to Disaster Recovery, Test, Stage, or Demo environments as appropriate, and
+                    assigns the ticket to the Test lead.</cmd>
+            </step>
+            <step>
+                <cmd>Test lead regresses all environments, and assigns the ticket back to the Project Manager.</cmd>
+            </step>
+            <step>
+                <cmd>Project Manager summarizes the release and any known issues in the ticket, and archives it.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

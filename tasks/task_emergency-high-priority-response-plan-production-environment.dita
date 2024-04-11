@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_emergency-high-priority-response-plan-production-environment">
+    <title>Production Environment Issues</title>
+    <shortdesc>To work on a production environment issue, follow these steps:</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Upon discovery of the issue, notify the IT Director and Program Manager.</cmd>
+            </step>
+            <step>
+                <cmd>Network Operations (or Development Team, depending on issue) coordinates
+                    resolution and communicates status to IT Director and Program Manager.</cmd>
+            </step>
+            <step>
+                <cmd>The Development Team will coordinate resolution and deploy a hot fix to
+                    Staging. The fix will be applied to source, as well as release, if one is in
+                    progress</cmd>
+            </step>
+
+            <step>
+                <cmd>IT Director or Program Manager notifiy Client business and/or complete an
+                    Incident Report as required.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

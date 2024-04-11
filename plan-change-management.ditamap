@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Company Change Management Process &lt;rjose-sample/&gt;</title>
+    <topicref href="wrapper/introduction.dita" chunk="to-content">
+        <topicref href="topics/topic_cm-scope.dita"/>
+        <topicref href="topics/topic_cm-change-defined.dita"/>
+        <topicref href="topics/topic_change-classifications.dita"/>
+        
+    </topicref>
+    <topicref href="wrapper/roles-and-responsibilities.dita" chunk="to-content">
+        <topicref href="topics/topic_informtion-security-management-team.dita"/>
+        <topicref href="topics/topic_change-management-participants.dita"/>
+        <topicref href="topics/topic_weekly-roadmap-meetings.dita"/>
+    </topicref>
+    
+    <topicref href="topics/topic_cm-the-process.dita" chunk="to-content"/>
+    
+    <topicref href="change-standard.ditamap" format="ditamap"/>
+    
+    <topicref href="change-normal.ditamap" format="ditamap"/>
+    
+    <topicref href="topics/topic_emergency-high-priority-response-plan.dita" chunk="to-content">
+        <topicref href="tasks/task_emergency-high-priority-response-plan-website.dita"/>
+        <topicref
+            href="tasks/task_emergency-high-priority-response-plan-production-environment.dita"/>
+    </topicref>
+</map>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cm-the-process">
+    <title>Change Management Process</title>
+    <shortdesc>Plan | Test | Approve | Implement | Validate | Document</shortdesc>
+    <body>
+        <table frame="all" rowsep="1" colsep="1" >
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="6.17*"/>
+                <thead>
+                    <row>
+                        <entry><b>Phase</b></entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><b>Plan</b></entry>
+                        <entry>
+                            <p>When planning the change, the Requester and Program Manager are
+                                responsible for the following: </p>
+                            <ul id="ul_onq_xnw_z1c">
+                                <li>identifying the need for changes to production processes or
+                                    systems</li>
+                                <li>following the appropriate <wintitle>Change Management
+                                        Process</wintitle> (Emergency, Standard, Normal)</li>
+                                <li>determining the timeframe for the change</li>
+                                <li>maintaining communications with stakeholders as the change
+                                    progresses from inception to validation </li>
+                                <li>verifying and documenting the outcome of the changes and rating
+                                    their success</li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><b>Test</b></entry>
+                        <entry>
+                            <p>Every change must have a verification plan which will assure the
+                                change is made successfully. </p>
+                            <p>The individual testing the change is responsible for the
+                                following:</p>
+                            <ul id="ul_t4c_14w_z1c">
+                                <li>developing an appropriate test plan</li>
+                                <li>developing an appropriate verification plan</li>
+                                <li>verifying successful test results: resolving and re-testing any
+                                    issues</li>
+                                <li>documenting and communicating test results</li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><b>Approve</b></entry>
+                        <entry>
+                            <p>The change request, test results and sign-off document must be
+                                presented to the appropriate approver for review of the change to be
+                                implemented. </p>
+                            <p>Any exceptions to the above must be justified due to its urgency or
+                                nonnegotiable due date, and reason for the exception. </p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><b>Implement</b></entry>
+                        <entry>
+                            <p>The ISM Team authorizes implementation. Only changes that have been
+                                approved may be implemented in a production environment.</p>
+                            <p>The implementation team is responsible for the following:</p>
+                            <ul id="ul_gd3_c4w_z1c">
+                                <li>ensuring adequate staff is available to migrate the change</li>
+                                <li>communicating the migrated change to the appropriate Program
+                                    Manager</li>
+                                <li> migrating successfully tested changes to the production
+                                    environment </li>
+                            </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry><b>Validate</b></entry>
+                        <entry>After implementation of a change, validation of the change must occur
+                            in order to verify if the change was successful. If validation fails,
+                            the change must be reverted using its back out plan.</entry>
+                    </row>
+                    <row>
+                        <entry><b>Document</b></entry>
+                        <entry>
+                            <p>All change requests must be formally documented, classified, and
+                                prioritized to ensure they are planned for accordingly. </p>
+                            <p>The <wintitle>Change Request Form</wintitle> contains detailed
+                                information about the change and is required for changes submitted
+                                to the ISM Team.</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

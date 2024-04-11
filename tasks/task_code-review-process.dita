@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_code-review-process">
+    <title>Code Review</title>
+
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Code review each pull request and consider the following:</cmd>
+                <info>
+                    <ul>
+                        <li>Is this an expected change associated with a ticket or other planned
+                            work?</li>
+                        <li>Are there privacy or security implications with this change?</li>
+                        <li>Are there Open Web Application Security Project (OWASP) concerns?</li>
+                        <li>Are there performance impacts possible with this change?</li>
+                        <li>Are slow IO functions properly cached?</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Open an ADO item for each issue uncovered in the review process.</cmd>
+            </step>
+            <step>
+                <cmd>Project Manager prioritizes opened work items based on severity; any high
+                    priority issues must be resolved before releasing code to Staging or
+                    Production.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

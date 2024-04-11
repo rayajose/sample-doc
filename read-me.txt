@@ -1,0 +1,4 @@
+Output locations
+
+webhelp: rjose-sample\out\webhelp-responsive\index.html
+pdf:	rjose-sample\out\pdf\plan-change-management.pdf

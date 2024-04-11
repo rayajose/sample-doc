@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_network-system-hardware-changes">
+    <title>Internal Systems</title>
+    <taskbody>
+        <prereq><p conref="../reusable-content.dita#re-use/pre-req-change-management"/>
+            <p>If required, apply the considerations checklist for new asset purchase. Refer to the
+                    <wintitle>Asset Mangement Process</wintitle>. This process covers changes to
+                hardware or software infrastructure.</p>
+            <p>Changes are typically initiated by:</p>
+            <ul>
+                <li>new hardware</li>
+                <li>hardware removal</li>
+                <li>major hardware maintenance</li>
+                <li>Firewall changes/additions</li>
+                <li>New VMs</li>
+                <li>Removing of VMs</li>
+                <li>Installation or removal of software</li>
+            </ul>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Identify a hardware change through the Weekly Roadmap Meeting.</cmd>
+            </step>
+            <step>
+                <cmd>Gather requirements and procure hardware as necessary or allocated virtual
+                    resources needed.</cmd>
+            </step>
+            <step><note>The ticket may progress through the following:<ul>
+                <li>list of changes</li>
+                <li>test plan</li>
+                <li>rollout plan</li>
+                <li>backup/backout plan</li>
+            </ul></note>
+                <cmd>Open a ticket to track project.</cmd>
+            </step>
+            <step>
+                <cmd>Once project is complete, close and archive the ticket.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

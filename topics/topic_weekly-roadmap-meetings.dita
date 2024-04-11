@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_weekly-roadmap-meetings">
+    <title>Weekly Roadmap Meetings</title>
+    <body>
+        <p>The Information Security Management Team assembles in a weekly <i>Roadmap Meeting</i> to
+            discuss work in process and prospective work. Changes to existing processes, systems,
+            applications are also reviewed and discussed. Items that are approved, are tracked at a
+            high level in these meetings. Work is tracked more closely through the company ticketing
+            system.</p>
+        <p>Ticketed items are reviewed/assigned by either the Development Lead or Project
+            Manager. If the work is planned to be included as part of a release, all tickets must be
+            signed off by a tester. After the release, the tickets are reviewed in production and
+            closed.</p>
+    </body>
+</topic>
